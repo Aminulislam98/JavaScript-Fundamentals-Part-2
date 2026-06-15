@@ -2,3 +2,18 @@
 // learned about strict mode that is helping  to find bug that can javascript engine silently ignore ,like normally I can write isDriverLicense = true; although I did not add any variable in this case javascript engine will not give eny error , but if i use strick mode javaScript engine will give error that isDriverLicense is not defined that is actually right:
 // interface is reserved word in js
 // private is reserved word in js
+
+// Function
+function logger() {
+  console.log("My name is Aminul");
+}
+
+// calling / running / invoking function
+logger();
+
+function fruitProcessor(apples, oranges) {
+  const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+  return juice;
+}
+// console.log(fruitProcessor(5, 2));
+const num = Number("22");
