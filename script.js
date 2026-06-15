@@ -67,3 +67,19 @@
 //   }
 // };
 // console.log(yearRetirement(1920, "Aminul"));
+// const calcAverage = (firstScore, secondScore, thirdScore) => {
+//   return (firstScore + secondScore + thirdScore) / 3;
+// };
+// const scoreDolphins = calcAverage(44, 23, 71);
+// const scoreKoalas = calcAverage(65, 34, 27);
+
+// function checkWinner(avgDolphins, avgKoalas) {
+//   if (avgDolphins > avgKoalas) {
+//     return `Dolphins win (${avgDolphins} vs. ${avgKoalas})`;
+//   } else if (avgKoalas > avgDolphins) {
+//     return `Koalas win (${avgKoalas} vs. ${avgDolphins})`;
+//   } else {
+//     return "No team wins...";
+//   }
+// }
+// console.log(checkWinner(scoreKoalas, scoreDolphins));
