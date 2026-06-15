@@ -51,3 +51,19 @@
 //   return juice;
 // }
 // console.log(fruitProcessor(5, 2));
+
+// Reviewing function
+
+const age = (birthYears) => 2026 - birthYears;
+
+const yearRetirement = (birthYears, firstName) => {
+  const calcAge = age(birthYears);
+  const retirement = 65 - calcAge;
+  if (retirement > 0) {
+    return `${firstName} retires in ${retirement}`;
+  } else {
+    console.log(`${firstName} has already retired 🎉`);
+    return -1;
+  }
+};
+console.log(yearRetirement(1920, "Aminul"));
