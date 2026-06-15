@@ -4,12 +4,12 @@
 // private is reserved word in js
 
 // Function
-function logger() {
-  //   console.log("My name is Aminul");
-}
+// function logger() {
+//   console.log("My name is Aminul");
+// }
 
 // calling / running / invoking function
-logger();
+// logger();
 
 // function fruitProcessor(apples, oranges) {
 //   const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
@@ -27,13 +27,27 @@ logger();
 // };
 
 // Arrow function
-const calcAge = (birthYear) => 2026 - birthYear;
-const age3 = calcAge(2003);
+// const calcAge = (birthYear) => 2026 - birthYear;
+// const age3 = calcAge(2003);
 // console.log(age3); output: 23;
 
-const yearRetirement = (birthYears, firstName) => {
-  const age = 2036 - birthYears;
-  const retirement = 65 - age;
-  return `${firstName} retires in ${retirement}`;
-};
+// const yearRetirement = (birthYears, firstName) => {
+//   const age = 2036 - birthYears;
+//   const retirement = 65 - age;
+//   return `${firstName} retires in ${retirement}`;
+// };
 // console.log(yearRetirement(2003, "Aminul"));
+
+// Function calling another function
+
+// const cutFruitPieces = (fruit) => {
+//   return fruit * 4;
+// };
+
+// function fruitProcessor(apples, oranges) {
+//   const applePieces = cutFruitPieces(apples);
+//   const orangePieces = cutFruitPieces(oranges);
+//   const juice = `Juice with ${applePieces} pieces of apples and ${orangePieces} pieces of oranges.`;
+//   return juice;
+// }
+// console.log(fruitProcessor(5, 2));
