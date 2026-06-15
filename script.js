@@ -17,3 +17,11 @@ function fruitProcessor(apples, oranges) {
 }
 // console.log(fruitProcessor(5, 2));
 const num = Number("22");
+
+// function expression and declaration
+function age() {
+  console.log("this is function declaration");
+}
+const age = function () {
+  console.log("this is function expression");
+};
