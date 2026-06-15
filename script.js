@@ -5,23 +5,35 @@
 
 // Function
 function logger() {
-  console.log("My name is Aminul");
+  //   console.log("My name is Aminul");
 }
 
 // calling / running / invoking function
 logger();
 
-function fruitProcessor(apples, oranges) {
-  const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
-  return juice;
-}
-// console.log(fruitProcessor(5, 2));
-const num = Number("22");
+// function fruitProcessor(apples, oranges) {
+//   const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+//   return juice;
+// }
+//  console.log(fruitProcessor(5, 2));
+// const num = Number("22");
 
-// function expression and declaration
-function age() {
-  console.log("this is function declaration");
-}
-const age = function () {
-  console.log("this is function expression");
+//  function expression and declaration
+// function age() {
+//    console.log("this is function declaration");
+// }
+// const age = function () {
+//    console.log("this is function expression");
+// };
+
+// Arrow function
+const calcAge = (birthYear) => 2026 - birthYear;
+const age3 = calcAge(2003);
+// console.log(age3); output: 23;
+
+const yearRetirement = (birthYears, firstName) => {
+  const age = 2036 - birthYears;
+  const retirement = 65 - age;
+  return `${firstName} retires in ${retirement}`;
 };
+// console.log(yearRetirement(2003, "Aminul"));
