@@ -114,4 +114,6 @@ const popped = friends1.pop(); // pop return the removed element
 friends1.shift(); // unshift method removed the element from at the first and it also return the removed element
 //console.log(friends1.indexOf("microbe")); indexOf method return the position of the element
 
-console.log(friends1.includes("Microbe")); // includes method only return Boolean : true or false || it is strict equality
+//console.log(friends1.includes("Microbe"));  includes method only return Boolean : true or false || it is strict equality
+
+// Introduction to array
