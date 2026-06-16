@@ -106,3 +106,12 @@ friends.push("Aminul"); // adding element to the array
 friends1.unshift("Hey");
 // console.log(friends1);
 // Push method add element end of the array but unshift method add element at the very first of the array
+
+// Remove element
+const popped = friends1.pop(); // pop return the removed element
+// console.log(friends1);
+// console.log(popped);
+friends1.shift(); // unshift method removed the element from at the first and it also return the removed element
+//console.log(friends1.indexOf("microbe")); indexOf method return the position of the element
+
+console.log(friends1.includes("Microbe")); // includes method only return Boolean : true or false || it is strict equality
