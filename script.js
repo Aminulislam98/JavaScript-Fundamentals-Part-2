@@ -97,4 +97,12 @@ const friends = ["Michael", "Steven", "Peter"];
 friends[2] = "Sarah";
 // console.log(friends);
 
-//
+//Basic array operation
+const friends1 = ["Microbe", "Steadfast", "Package"];
+friends.push("Aminul"); // adding element to the array
+// .push is also a function / method
+// this is also called mutating
+
+friends1.unshift("Hey");
+// console.log(friends1);
+// Push method add element end of the array but unshift method add element at the very first of the array
