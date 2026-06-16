@@ -92,3 +92,9 @@
 // console.log(friends1);
 
 //Array is 0 index based and length is not 0 index based
+
+const friends = ["Michael", "Steven", "Peter"];
+friends[2] = "Sarah";
+// console.log(friends);
+
+//
