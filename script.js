@@ -83,3 +83,10 @@
 //   }
 // }
 // console.log(checkWinner(scoreKoalas, scoreDolphins));
+// Introduction to Arrays
+const friends = ["Michael", "Steven", "Peter"];
+
+// This is also a array
+const friends1 = new Array(1289, 3429, 3343, 9889);
+console.log(friends);
+console.log(friends1);
