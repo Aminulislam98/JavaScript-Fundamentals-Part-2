@@ -117,3 +117,21 @@ friends1.shift(); // unshift method removed the element from at the first and it
 //console.log(friends1.includes("Microbe"));  includes method only return Boolean : true or false || it is strict equality
 
 // Introduction to array
+
+// Dot vs. Bracket Notation
+const user = {
+  firstName: "Aminul",
+  lastName: "Islam",
+  age: 2026 - 2003,
+  job: "Developer",
+  friends: ["Microbe", "Steadfast", "Package"],
+};
+
+const findKeyInObject = "job";
+
+// console.log(user[findKeyInObject]);
+// const interestedIn = prompt(
+//   "What do you want to know about Aminul? Chose between firstName, lastName, age, job, and friends",
+// );
+// console.log(user[interestedIn]);
+// inside bracket notation any expression can put
