@@ -184,7 +184,7 @@ const user2 = [
 ];
 const types = [];
 for (let i = 0; i < user2.length; i++) {
-  console.log(user2[i], typeof user2[i]);
+  // console.log(user2[i], typeof user2[i]);
   // filling types array with the type of each element in user2 array
   // types[i] = typeof user2[i];
   types.push(typeof user2[i]);
