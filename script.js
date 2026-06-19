@@ -172,3 +172,26 @@ const user1 = {
 //     console.log(`I have done ${repetitions} repetitions 🏋️‍♂️`);
 // }
 // I have practiced for loop and learned about how to use it and how to control the loop with condition and how to use break and continue statement in the loop
+
+// Looping Arrays, Breaking and Continuing
+const user2 = [
+  "aminul",
+  "islam",
+  2026 - 2003,
+  "developer",
+  ["microbe", "steadfast", "package"],
+  true,
+];
+const types = [];
+for (let i = 0; i < user2.length; i++) {
+  console.log(user2[i], typeof user2[i]);
+  // filling types array with the type of each element in user2 array
+  // types[i] = typeof user2[i];
+  types.push(typeof user2[i]);
+}
+
+const years = [1991, 2007, 1969, 2020];
+let age = [];
+for (let i = 0; i < years.length; i++) {
+  age.push(2026 - years[i]);
+}
