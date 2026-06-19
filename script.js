@@ -162,3 +162,13 @@ const user1 = {
 
 //
 // Done exercise on udemy course website
+
+// Iteration: The for Loop;
+// For loop keeps running while condition is TRUE;
+// const repetitions = 20;
+// for (let rep = 1; rep <= repetitions; rep++) {
+//   console.log(`Lifting weights repetition ${rep} 🏋️‍♂️`);
+//   if (rep === repetitions)
+//     console.log(`I have done ${repetitions} repetitions 🏋️‍♂️`);
+// }
+// I have practiced for loop and learned about how to use it and how to control the loop with condition and how to use break and continue statement in the loop
