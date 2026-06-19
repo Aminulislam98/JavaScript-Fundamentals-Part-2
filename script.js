@@ -195,3 +195,24 @@ let age = [];
 for (let i = 0; i < years.length; i++) {
   age.push(2026 - years[i]);
 }
+
+// continue and break statement
+
+for (let i = 0; i < user2.length; i++) {
+  if (typeof user2[i] !== "string") continue;
+  // console.log(user2[i], typeof user2[i]);
+}
+
+for (let i = 0; i < user2.length; i++) {
+  if (typeof user2[i] === "number") break;
+  // console.log(user2[i], typeof user2[i]);
+}
+
+const user3 = [
+  "aminul",
+  "islam",
+  2026 - 2003,
+  "developer",
+  ["microbe", "steadfast", "package"],
+  true,
+];
