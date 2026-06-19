@@ -208,6 +208,8 @@ for (let i = 0; i < user2.length; i++) {
   // console.log(user2[i], typeof user2[i]);
 }
 
+// Looping Backwards and Loops in Loops
+
 const user3 = [
   "aminul",
   "islam",
@@ -216,3 +218,16 @@ const user3 = [
   ["microbe", "steadfast", "package"],
   true,
 ];
+
+for (let i = user3.length - 1; i >= 0; i--) {
+  console.log(user3[i]);
+}
+
+// Loops in loops
+
+for (let exercise = 1; exercise < 4; exercise++) {
+  console.log(`------- Exercise ${exercise} -------`);
+  for (let rep = 1; rep <= 5; rep++) {
+    console.log(`Lifting weights repetition ${rep} 🏋️‍♂️`);
+  }
+}
