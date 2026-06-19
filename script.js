@@ -220,14 +220,14 @@ const user3 = [
 ];
 
 for (let i = user3.length - 1; i >= 0; i--) {
-  console.log(user3[i]);
+  // console.log(user3[i]);
 }
 
 // Loops in loops
 
 for (let exercise = 1; exercise < 4; exercise++) {
-  console.log(`------- Exercise ${exercise} -------`);
+  // console.log(`------- Exercise ${exercise} -------`);
   for (let rep = 1; rep <= 5; rep++) {
-    console.log(`Lifting weights repetition ${rep} 🏋️‍♂️`);
+    // console.log(`Lifting weights repetition ${rep} 🏋️‍♂️`);
   }
 }
