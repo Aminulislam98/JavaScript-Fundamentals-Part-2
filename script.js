@@ -135,3 +135,27 @@ const findKeyInObject = "job";
 // );
 // console.log(user[interestedIn]);
 // inside bracket notation any expression can put
+
+// Object Methods
+const user1 = {
+  firstName: "Aminul",
+  lastName: "Islam",
+  birthYear: 2003,
+  job: "Developer",
+  friends: ["Microbe", "Steadfast", "Package"],
+  hasDriverLicense: true,
+  // calcAge: function () {
+  //   return 2026 - this.birthYear;
+  // },
+  calcAge: function () {
+    this.age = 2026 - this.birthYear;
+    return this.age;
+  },
+  getSummary: function () {
+    return (this.getSummary = `${this.firstName} is ${this.calcAge()} years old ${this.job}, and he has ${this.hasDriverLicense ? "a" : "no"} driver's license.`);
+  },
+};
+
+// I learned about this keyword that is pointing to the object that is calling the method, in this case user1 object is calling the method so this keyword is pointing to user1 object
+// I learned about method chaining that is calling method inside another method, in this case I can call calcAge method inside the console.log() method
+// console.log(user1.getSummary());
