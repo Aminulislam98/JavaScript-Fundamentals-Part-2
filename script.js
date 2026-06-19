@@ -159,3 +159,6 @@ const user1 = {
 // I learned about this keyword that is pointing to the object that is calling the method, in this case user1 object is calling the method so this keyword is pointing to user1 object
 // I learned about method chaining that is calling method inside another method, in this case I can call calcAge method inside the console.log() method
 // console.log(user1.getSummary());
+
+//
+// Done exercise on udemy course website
