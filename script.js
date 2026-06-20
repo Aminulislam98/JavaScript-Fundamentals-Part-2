@@ -251,8 +251,9 @@ const calcTip = function (bill) {
 // const tips = [];
 // const totals = [];
 // for (let i = 0; i < bills.length; i++) {
-//   tips.push(calcTip(bills[i]));
-//   totals.push(tips[i] + bills[i]);
+//   const tip = calcTip(bills[i]);
+//   tips.push(tip);
+//   totals.push(tip + bills[i]);
 //   console.log(`The number ${i + 1} bills includes tip: ${totals[i]}`);
 // }
 // console.log(totals);
