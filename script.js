@@ -237,5 +237,23 @@ let dice = Math.trunc(Math.random() * 6) + 1;
 while (dice !== 6) {
   // console.log(`You rolled ${dice}`);
   dice = Math.trunc(Math.random() * 6) + 1;
-  if (dice === 6) console.log("Loop is about to end....");
+  // if (dice === 6)console.log("Loop is about to end....");
 }
+
+// Exercise
+const calcTip = function (bill) {
+  return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+};
+
+/* Write your code below. Good luck! 🙂 */
+
+// const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+// const tips = [];
+// const totals = [];
+// for (let i = 0; i < bills.length; i++) {
+//   tips.push(calcTip(bills[i]));
+//   totals.push(tips[i] + bills[i]);
+//   console.log(`The number ${i + 1} bills includes tip: ${totals[i]}`);
+// }
+// console.log(totals);
+// practiced about loop
